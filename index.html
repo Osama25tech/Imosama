@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="osa.css">
+    <script defer src="script.js"></script>
+    <title>World Dron</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Osama</div>
+        <div class="Hamburger" >
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+
+                <li>
+                    <a href="#Home" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#Features">Features</a>
+                </li>
+                <li> 
+                    <a href="#Pricing">Pricing</a>
+                </li>
+                <li> 
+                    <a href="#About">About</a>
+                </li>
+                <li> 
+                    <a href="#Kontakt">Kontakt</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    
+    </header>
+
+    <div class="container">
+
+        <section id="Home" class="one">
+
+            <h2 class="hello">Hello, my name is <span class="name">Osama</span></h2>
+            <h2>I'm a <span></span></h2>
+        </section>
+        
+        <section id="Features" class="Two">
+
+            <h1>Second page</h1>
+
+        </section>
+        
+        <section id="Pricing" class="Three">
+
+            <h1>Third page</h1>
+
+        </section>
+        
+        <section id="About" class="Four">
+
+            <h1>Fourth page</h1>
+
+        </section>
+
+        <section id="Kontakt" class="Fifth">
+
+            <h1>Fifth page</h1>
+
+        </section>
+
+    </div>
+
+<script>
+
+    Hamburger = document.querySelector(".Hamburger");
+    Hamburger.onclick = function(){
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+
+    }
+
+   
+</script>
+
+</body>
